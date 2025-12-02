@@ -1,0 +1,20 @@
+{
+  "grid_detection": {
+    "row_threshold": 25
+  },
+  "model_settings": {
+    "det_model_path": "model_path/RT-DETR-L_wired_table_cell_det/inference.onnx",
+    "det_model_confident_threshold": 0.9
+  },
+  "file_settings": {
+    "supported_extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".bmp"
+    ],
+    "save_debug_images": true,
+    "ocr_save_threshold": 0.3,
+    "output_csv_suffix": ""
+  }
+}
